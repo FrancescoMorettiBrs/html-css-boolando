@@ -15,7 +15,7 @@ body {
 
 /* UTILITIES */
 .py-20 {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 /* COMMON */
@@ -35,7 +35,6 @@ body {
 
 .col-30 {
   width: 32%;
-  border: 1px solid #000000;
   margin-bottom: 30px;
 }
 
@@ -107,3 +106,40 @@ body {
 .heart:hover {
   color: #ff0000;
 }
+
+.img-hide {
+  position: absolute;
+  right: 0;
+}
+
+.img-hide:hover {
+  display: none;
+}
+
+/* BONUS */
+
+/* .bg-header {
+    background-color: #ff6900;
+    height: 60px;
+    align-content: center;
+}
+
+.flex-container-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-header {
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.boolean-logo {
+    background-size: contain;
+    width: 120px;
+    align-self: center;
+
+} */
