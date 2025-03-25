@@ -15,7 +15,7 @@ body {
 
 /* UTILITIES */
 .py-20 {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 /* COMMON */
@@ -118,28 +118,57 @@ body {
 
 /* BONUS */
 
-/* .bg-header {
-    background-color: #ff6900;
-    height: 60px;
-    align-content: center;
+.bg-header {
+  background-color: #ff6900;
+  height: 60px;
+  align-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
 }
 
 .flex-container-header {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-between;
 }
 
-.ul-header {
-    display: flex;
-    color: white;
-    list-style: none;
-    gap: 10px;
+.ul-link {
+  display: flex;
+  gap: 15px;
+}
 
+.ul-decoration {
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
 .boolean-logo {
-    background-size: contain;
-    width: 120px;
-    align-self: center;
+  background-size: contain;
+  width: 120px;
+  align-self: center;
+}
 
-} */
+.view-profile {
+  display: flex;
+  color: white;
+  width: 20px;
+}
+
+.bg-footer {
+  height: 100px;
+  width: 100%;
+  background-color: #1a1a1a;
+  align-content: center;
+}
+
+.flex-container-footer {
+  justify-content: space-between;
+  display: flex;
+}
+
+h3 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
