@@ -1,10 +1,109 @@
+/* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* COMMON */
+/* Layout */
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 80%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.col-30 {
+  width: 32%;
+  border: 1px solid #000000;
+  margin-bottom: 30px;
+}
+
+.model {
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  background-color: #ff0000;
+  padding: 4px 8px;
+  color: #ffffff;
+}
+
+.sostenibility {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  background-color: #008000;
+  padding: 4px;
+  color: #ffffff;
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: #ffffff;
+  padding: 3px 12px;
+  color: black;
+  font-size: x-large;
+}
+
+.prices-clothes {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.discount-price {
+  color: #ff0000;
+  font-size: 0.8rem;
+}
+
+.price {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+
+#sostenibility-1 {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  background-color: #008000;
+  padding: 4px 8px;
+  color: #ffffff;
+}
+
+.col-30:hover .heart {
+  display: block;
+}
+
+.col-30:hover .model {
+  display: block;
+}
+
+.heart:hover {
+  color: #ff0000;
+}
